@@ -6,51 +6,47 @@ body {
   background-color: white;
   color: gray;
   text-align: center;
+  font-weight: bold;
 }
 
 .fib {
   /* give relative path from stylesheet location to the image location */
   background-image: url("../images/the-flatiron-building.png");
   color: white;
-  font-weight: bold;
 }
 
 h1 {
   font-size: 70px;
-  font-weight: bold;
   color: white;
 }
 
 h2 {
   font-size: 32px;
-  font-weight: bold;
 }
 
 h3 {
   font-size: 23px;
-  font-weight: bold;
 }
 
-.fib a {
+a {
   font-size: 18px;
   color: white;
 }
 
 p {
   font-size: 18;
+  font-weight: normal;
 }
-img {
-    display: inline-block;
+
+p a {
+  font-weight: bold;
 }
 
 span {
-  text-align: left;
   font-size: 11px;
-  color: white;
-  background-color: dimgray;
 }
 
-#footer {
+.footer {
   text-align: left;
   font-size: 23px;
   color: white;
