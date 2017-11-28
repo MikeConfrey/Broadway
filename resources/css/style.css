@@ -9,8 +9,10 @@ body {
 }
 
 .fib {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png"); width="830"; height="297";
+  /* give relative path from stylesheet location to the image location */
+  background-image: url("../images/the-flatiron-building.png");
   color: white;
+  font-weight: bold;
 }
 
 h1 {
@@ -19,12 +21,38 @@ h1 {
   color: white;
 }
 
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
 .fib a {
   font-size: 18px;
   color: white;
 }
 
-
+p {
+  font-size: 18;
+}
 img {
     display: inline-block;
+}
+
+span {
+  text-align: left;
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+}
+
+#footer {
+  text-align: left;
+  font-size: 23px;
+  color: white;
+  background-color: dimgray;
 }
