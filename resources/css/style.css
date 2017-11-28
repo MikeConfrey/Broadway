@@ -1,0 +1,9 @@
+/* Mike Confrey 11-27-2017 */
+
+/* set attributes for entire page */
+body {
+  font-family: Helvetica; Verdana;
+  background-color: white;
+  color: gray;
+  text-align: center;
+}
