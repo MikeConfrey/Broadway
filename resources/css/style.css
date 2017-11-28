@@ -7,3 +7,24 @@ body {
   color: gray;
   text-align: center;
 }
+
+.fib {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png"); width="830"; height="297";
+  color: white;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+.fib a {
+  font-size: 18px;
+  color: white;
+}
+
+
+img {
+    display: inline-block;
+}
