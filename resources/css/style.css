@@ -12,6 +12,7 @@ body {
 .fib {
   /* give relative path from stylesheet location to the image location */
   background-image: url("../images/the-flatiron-building.png");
+  background-position: center;
   color: white;
 }
 
